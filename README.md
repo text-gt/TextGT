@@ -103,7 +103,7 @@ We additionally perform a comparison experiment to show our TextGT constructed i
 ### Different Combinations of $n$ and $m$ 
 
 To explore the influence of different numbers of Graph Convs and Transformer Layers ($n$ and $m$, respectively) in each TextGT block, we further perform configuration studies on Restaurant and Twitter, and the results are as follows. 
-![](resources/number_study_restaurant.png)  ![](resources/number_study_twitter.png)
+<br/><br/><img src="resources/words_attention_restaurant5.png" style="width:40%; padding-left:5%"/> <img src="resources/words_attention_laptop4.png" style="width:40%; padding-left:5%"/> 
 
 
 Generally the model performance is degraded with the increase in $n$ and $m$, whilst $n=m=1$ is obviously the best configuration, which just corresponds to our TextGT. To reproduce the results, please specify the related model using `--model_name gt-n-m` with $n$ and $m$ replaced by 1, 2 or 4. 
