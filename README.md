@@ -91,7 +91,7 @@ python output_words_attn.py --sentence_id [Number] # and other arguments for the
 ```
 
 Two visualization examples are as follows: <br/><br/><img src="resources/words_attention_restaurant5.png" style="width:40%; padding-left:5%"/> <img src="resources/words_attention_laptop4.png" style="width:40%; padding-left:5%"/> 
-
+<br/><br/><img src="resources/words_attention_restaurant5.png" style="width:40%; padding-left:5%"/> <img src="resources/words_attention_laptop4.png" style="width:40%; padding-left:5%"/> 
 ---
 # Appendix 
 
