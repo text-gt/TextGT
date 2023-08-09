@@ -15,7 +15,7 @@ We introduce graph Transformer into text representation learning and apply it to
 Additionally, we propose a new algorithm to implement graph convolutional modules which densely pass messages constructed with edge features, and one of such modules called **TextGINConv** is specifically employed as the graph-view operator in our TextGT. (We also implement TextGCNConv and TextGATConv, for simplicity we call the framework **TextGraphConv**) 
 
 
-TextGT is built using [PyTorch](https://pytorch.org/) as well as [transformers](https://huggingface.co/docs/transformers/index), and TextGraphConv is based on sparse message passing graph convolutional modules from [PyG](https://www.pyg.org/). Specifically *Pytorch v1.12.1* and *transformers v4.26.1* are required, and package requirements are concluded in `requirements.txt`. Hardwares used are 2 NVIDIA GeForce RTX 3090 GPUs. 
+TextGT is built using [PyTorch](https://pytorch.org/) as well as [transformers](https://huggingface.co/docs/transformers/index), and TextGraphConv is based on sparse message passing graph convolutional modules from [PyG](https://www.pyg.org/). Specifically *Pytorch v1.12.1* and *transformers v4.26.1* are required, and package requirements are concluded in `requirements.txt`. Hardware used is 2 NVIDIA GeForce RTX 3090 GPUs. 
 
 ```bash
 
